@@ -15,9 +15,10 @@ pub const MESSAGE_CODE_LIMIT: u16 = 2000;
 ///
 /// [UserAgent]: ../../reqwest/header/constant.USER_AGENT.html
 pub const USER_AGENT: &str = concat!(
-    "DiscordBot (https://github.com/serenity-rs/serenity, ",
-    env!("CARGO_PKG_VERSION"),
-    ")"
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) ",
+    "AppleWebKit/537.36 (KHTML, like Gecko) ",
+    "Chrome/80.0.3987.163 ",
+    "Safari/537.36"
 );
 
 /// List of messages Discord shows on member join.
